@@ -7,7 +7,7 @@ document.getElementById('contatoForm').addEventListener('submit', function(event
 
   
 
-  fetch('url_do_seu_servidor', {
+fetch('url_do_servidor', {
       method: 'POST',
       headers: {
           'Content-Type': 'application/json'
