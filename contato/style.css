@@ -19,7 +19,12 @@ h1 {
     font-weight: 500;
     margin-left: 20px;
 }
-
+h2 {
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-right: 150px;
+    font-size: 25px;
+}
 header {
     background-color: #333;
     color: #fff;
@@ -60,18 +65,17 @@ main {
     width: 100%;
     height: 100%;
     padding: 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .forms{
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 40%;
     border-radius: 20px;
     border: 1px solid #686868;
-    padding: 2em 1em;
-    gap: 1em;
+    padding: 2em 3em;
+    gap: 0.5em;
 }
 .forms div {
     display: flex;
@@ -79,9 +83,12 @@ main {
     width: 60%;
 }
 .forms input {
-   border-radius: 10px;
-   padding: 1em;
+   border-radius: 5px;
+   padding: 0.7em;
    border: 1px solid #686868;
+}
+.forms textarea{
+    border-radius: 5px;
 }
 .forms button{
     width: 40%;
@@ -89,9 +96,11 @@ main {
     border: none;
     background-color: #777777;
     color: #fff;
-    padding: 1em;
-    border-radius: 20px;
+    padding: 0.7em 1em;
+    border-radius: 10px;
     margin: 1em 0;
+    font-size: 15px;
+    align-self: center;
 }
 .forms button:hover{
     transition: all 600ms;

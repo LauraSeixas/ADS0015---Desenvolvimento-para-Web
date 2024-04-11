@@ -20,14 +20,43 @@ h1 {
     margin-left: 20px;
     margin-bottom: 10px;
 }
-
-button {
-    padding: 4px;
+h2 {
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-right: 190px;
+    font-size: 25px;
 }
+button {
+    width: 40%;
+    margin-top: 1em;
+    border: none;
+    background-color: #777777;
+    color: #fff;
+    padding: 0.7em 1em;
+    border-radius: 10px;
+    margin: 2em 0;
+    font-size: 15px;
+    align-self: center;
+}
+
+button:hover{
+    transition: all 600ms;
+    box-shadow: inset 30em 0 0 0 #ffffff;
+    border: 1px solid #333;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(1, 103, 255);
+}
+
 
 #hrStyle {
     width: 525px;
+    margin-bottom: 15px;
 }
+
 
 input {
     width: 525px;
@@ -35,7 +64,16 @@ input {
 }
 
 form {
-    padding: 20px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+form input {
+    border-radius: 5px;
+    padding: 0.2em;
+    margin-top: 5px;
+    border: 1px solid #686868;
 }
 
 header {
@@ -76,14 +114,29 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 50%;
     height: 100%;
-    padding: 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 4em;
+    margin-bottom: 4.5em;
+    width: 40%;
+    border-radius: 20px;
+    border: 1px solid #686868;
 }
 
+.subtitle{
+    font-size: 15px;
+    margin-right: 15px;
+}
 
+.cadastro-link{
+    font-size: 14px;
+}
+
+label{
+    margin-bottom: 15px;
+}
 @media screen and (max-width: 767px) {
     header {
         flex-direction: column;
