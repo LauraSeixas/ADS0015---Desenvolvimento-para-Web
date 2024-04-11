@@ -4,22 +4,16 @@ function validarFormulario() {
     var cpf = document.getElementById('cpf').value;
     var telefone = document.getElementById('telefone').value;
     var senha = document.getElementById('senha').value;
-
-    
-
     
     if (!validarCPF(cpf)) {
         alert('CPF inválido');
         return false;
     }
 
-    
     if (!validarTelefone(telefone)) {
         alert('Telefone inválido');
         return false;
     }
-
-    
 
     return true;
 }
