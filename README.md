@@ -10,12 +10,12 @@ Clone este repositório em sua máquina local:
 git clone https://github.com/LauraSeixas/ADS0015---Desenvolvimento-para-Web.git
 ```
 
-### 4. Acessando a Aplicação
+### 2. Acessando a Aplicação
 Você poderá acessar a aplicação em seu navegador, digitando o seguinte endereço, após instalar a extensão Live Server:
 ```bash
 http://localhost:5500/
 ```
-### 5. Screenshots da Aplicação
+### 3. Screenshots da Aplicação
 #### Plataforma de Gerenciamento de Tarefas
 ![Página Home](/assets/tasks.png)
 #### Modal de criação
