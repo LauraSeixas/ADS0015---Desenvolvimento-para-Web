@@ -61,7 +61,7 @@ main {
     height: 100%;
     padding: 20px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .task-list {
@@ -194,11 +194,13 @@ th {
 .modal-content {
     background-color: #fefefe; 
     margin: 10% auto; 
-    padding: 20px;
+    padding: 30px;
     border: 1px solid #888;
     width: 80%;
     max-width: 600px; 
     border-radius: 5px; 
+    display: flex;
+    flex-direction: column;
 }
 
 #confirm-delete-btn {
@@ -228,9 +230,9 @@ th {
 
 .close {
     color: #aaa;
-    float: right;
     font-size: 28px; 
     font-weight: bold;
+    align-self: flex-end;
 }
 
 .close:hover,
@@ -253,7 +255,13 @@ th {
     width: 20px; 
     height: 20px;
 }
-
+.container-delete-btn{
+    width: 40%;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 @media screen and (max-width: 767px) {
     header {
         flex-direction: column;
